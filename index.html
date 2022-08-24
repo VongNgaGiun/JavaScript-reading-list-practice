@@ -1,0 +1,53 @@
+<!-- tutorial source: https://www.youtube.com/watch?v=FIORjGvT0kk&list=PL4cUxeGkcC9gfoKa5la9dsdCNpuey2s-V&index=1&ab_channel=TheNetNinja -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>閱讀清單</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="page-banner">
+          <h1 class="title">閱讀清單</h1>
+          <p>Doris</p>
+          <form id="search-books">
+            <input type="text" placeholder="搜尋書籍..." />
+          </form>
+        </div>
+      </header>
+      <div id="book-list">
+        <h2 class="title">待閱讀</h2>
+        <ul>
+          <li>
+            <span class="name">서울대 한국어2B</span>
+            <span class="delete">刪除</span>
+          </li>
+          <li>
+            <span class="name">Lower ED</span>
+            <span class="delete">刪除</span>
+          </li>
+          <li>
+            <span class="name">圖解程式設計的技術與知識</span>
+            <span class="delete">刪除</span>
+          </li>
+          <li>
+            <span class="name">新日檢完勝500題N4-N5</span>
+            <span class="delete">刪除</span>
+          </li>
+        </ul>
+      </div>
+      <form id="add-book">
+        <input type="checkbox" id="hide" />
+        <label for="hide">隱藏所有書單</label>
+
+        <input type="text" placeholder="新增書籍..." />
+        <button>新增</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
